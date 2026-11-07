@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f4ef" />
+    <meta name="description" content="صفحهٔ معرفی و رزومهٔ سید علیرضا؛ مسیر کاری، پروژه‌ها و راه‌های ارتباطی." />
+    <title>سید علیرضا | معرفی و رزومه</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="profile.js" defer></script>
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="ابتدای صفحه">
+          <span class="brand-mark">س</span>
+          <span id="brand-name">سید علیرضا</span>
+        </a>
+        <nav class="nav-links" aria-label="ناوبری اصلی">
+          <a href="#about">دربارهٔ من</a>
+          <a href="#resume">رزومه</a>
+          <a href="#projects">پروژه‌ها</a>
+        </nav>
+        <a class="contact-pill" href="#contact">ارتباط با من <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="live-dot"></span> صفحهٔ شخصی و رزومه</div>
+            <h1>سلام، من <span id="hero-name">سید علیرضا</span> هستم<span class="period">.</span></h1>
+            <p class="hero-lead" id="headline">اینجا دربارهٔ من، مسیر کاری‌ام و چیزهایی که می‌سازم بخوانید.</p>
+            <p class="hero-note" id="intro">این صفحه در حال تکمیل است. به‌زودی اطلاعات بیشتر، رزومه و راه‌های ارتباطی اینجا قرار می‌گیرد.</p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="#resume">دیدن رزومه <span aria-hidden="true">↓</span></a>
+              <a class="button button-light" href="#projects">پروژه‌ها <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="social-row" id="social-links" aria-label="شبکه‌های اجتماعی"></div>
+          </div>
+          <div class="hero-art" aria-label="کارت معرفی">
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="profile-card">
+              <div class="card-top"><span>پروفایل</span><span class="card-index">۰۱ / ۰۴</span></div>
+              <div class="avatar" id="avatar">س‌ع</div>
+              <div class="card-name" id="card-name">سید علیرضا</div>
+              <div class="card-role" id="card-role">معرفی و رزومه</div>
+              <div class="card-divider"></div>
+              <div class="card-bottom"><span>تهران، ایران</span><span class="arrow-circle">↙</span></div>
+            </div>
+            <div class="floating-note note-top"><span class="note-icon">✳</span><span>مسیر من<br /><b>همیشه در حال رشد</b></span></div>
+            <div class="floating-note note-bottom"><span class="note-line"></span><span>پروژه‌های شخصی<br /><b id="project-count">در حال ساخت</b></span></div>
+            <span class="art-caption">A LITTLE ABOUT ME</span>
+          </div>
+        </section>
+
+        <section class="intro-strip" id="about">
+          <div class="section-kicker"><span>۰۱</span> / دربارهٔ من</div>
+          <div class="intro-content">
+            <h2>هر مسیر حرفه‌ای<br />با یک قدم شروع می‌شود.</h2>
+            <div>
+              <p id="about-text">این بخش برای معرفی کوتاه، علایق و مسیر کاری من است. اطلاعات واقعی‌ام را به‌زودی اینجا اضافه می‌کنم.</p>
+              <a class="text-link" href="#contact">بیشتر با من آشنا شوید <span aria-hidden="true">↙</span></a>
+            </div>
+          </div>
+        </section>
+
+        <section class="resume-section" id="resume">
+          <div class="section-heading">
+            <div><div class="section-kicker"><span>۰۲</span> / مسیر حرفه‌ای</div><h2>رزومه</h2></div>
+            <button class="button button-outline" id="print-resume" type="button">ذخیره یا چاپ رزومه <span aria-hidden="true">↓</span></button>
+          </div>
+          <div class="resume-grid">
+            <div class="resume-column">
+              <h3><span class="heading-icon">↗</span> تجربه</h3>
+              <div class="timeline" id="experience-list"></div>
+            </div>
+            <div class="resume-column">
+              <h3><span class="heading-icon">✳</span> تحصیلات</h3>
+              <div class="timeline" id="education-list"></div>
+            </div>
+            <div class="resume-column skill-column">
+              <h3><span class="heading-icon">⌘</span> مهارت‌ها</h3>
+              <div class="skill-list" id="skills-list"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects-section" id="projects">
+          <div class="section-heading">
+            <div><div class="section-kicker"><span>۰۳</span> / انتخابی از کارها</div><h2>پروژه‌ها</h2></div>
+            <span class="muted-label">چیزهایی که ساخته‌ام یا در حال ساختشان هستم</span>
+          </div>
+          <div class="project-grid" id="projects-list"></div>
+        </section>
+
+        <section class="contact-section" id="contact">
+          <div class="contact-copy">
+            <div class="section-kicker"><span>۰۴</span> / در تماس باشیم</div>
+            <h2>ایده‌ای داری؟<br /><span>با هم صحبت کنیم.</span></h2>
+            <p>برای همکاری، پرسش یا آشنایی بیشتر از راه‌های ارتباطی زیر پیام بده.</p>
+          </div>
+          <div class="contact-links" id="contact-links"></div>
+          <div class="contact-stamp" aria-hidden="true">LET’S<br />TALK <span>↙</span></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a class="brand footer-brand" href="#home"><span class="brand-mark">س</span><span id="footer-name">سید علیرضا</span></a>
+        <span>ساخته‌شده با دقت و علاقه</span>
+        <a href="#home">بازگشت به بالا ↑</a>
+      </footer>
+    </div>
+  </body>
+</html>
